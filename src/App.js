@@ -8,12 +8,12 @@ import { Project } from './Pages/Project';
 import { Skill } from './Pages/Skill';
 import Sidebar from './Sidebar/Sidebar';
 import Kls from './Pages/Kls';
+import ProductList from './Pages/ProductList';
 
 
 function App() {
   return (
-    
-       <div className="App" style={{backgroundColor: "#1d1d1d"}}>
+     <div className="App" style={{backgroundColor: "#1d1d1d"}}>
       <BrowserRouter> 
       <Sidebar>
       <Routes>
@@ -23,7 +23,7 @@ function App() {
         <Route path='/project'element={<Project/>}/>
         <Route path='/skill' element={<Skill/>}/>
         <Route path='/'element={<Home/>}/>
-        
+        <Route path='/productlist' element={<ProductList/>}/>
         <Route path='/kls'element={<Kls/>}/>
       
         

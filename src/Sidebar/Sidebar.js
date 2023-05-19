@@ -59,12 +59,19 @@ const Sidebar = ({children}) => {
         }
     ]
     return (
-        <div className="container">
-            
-           <div style={{width: isOpen ? "200px" : "50px"}} className="sidebar">
-               <div className="top_section" style={{height:"120px"}}>
+        <div className="container">  
+        
+        <div className="sidebar">
+        <div className={ isOpen ? 'open' : 'close'}>
+              
+           {/* <div style={{width: isOpen ? "200px" : "50px"}} className="sidebar"> */}
+               <div className="top_section" >
                 <Link to={'/'}> 
-                   <h1 style={{display: isOpen ? "block" : "none"}} className="logo"><img src={LOGO}/> </h1>
+                   {/* <h1 style={{display: isOpen ? "block" : "none"}} className="logo"><img src={LOGO}/> ff </h1> */}
+                   <div className=  { isOpen ? 'logoop' : 'logocl'}>
+                    <h1  className="logo"><img src={LOGO}/> ff </h1>
+                   </div>
+                   
                   </Link> 
                    <div style={{marginLeft: isOpen ? "50px" : "0px"}} className="bars">
                        <FaBars onClick={toggle}/>
@@ -80,9 +87,10 @@ const Sidebar = ({children}) => {
                            <div style={{display: isOpen ? "block" : "none"}} className="link_text">{item.name}</div>
                        </NavLink>
                    ))
-               }  
+               }  </div>
                </div>
-           </div><div className='scrollbox-inner'>
+           </div>
+           <div className='scrollbox-inner'>
 
            <main >
             
