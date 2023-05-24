@@ -1,8 +1,13 @@
 import React from 'react'
+import Cards from '../Component/Cards'
 
 const ProductList = () => {
   return (
-    <div className='pro' >ProductList jhfkjeoim vdhvkd vdjnvkljddm dlvjdk dvkjdkjb , mdj  dlj f d,m nkljn</div>
+    <div className='pro' >
+      ProductList worlk
+      
+      <Cards/>
+      </div>
   )
 }
 
