@@ -24,7 +24,9 @@
     
     
     "predeploy": "npm run build",
-       "deploy": "gh-pages -d build",
+    "deploy": "Portfolio -d build",
+
+   
         "start": "react-scripts start",
         "build": "react-scripts build",
     
