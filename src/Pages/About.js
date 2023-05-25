@@ -39,7 +39,7 @@ Well-organised person, problem solver, independent employee with high attention 
 <p style={{color:"#fff",fontSize:" 1.1rem",lineheight: "0.5" , paddingTop:"2%"}}>
 Interested in the entire frontend spectrum and working on ambitious projects with positive people.
 
-Let’s make something special.</p>
+Let’s make something special. new member </p>
 
               </div>
               <div id="my" style={{width:"500",height:"500",paddingTop:"10%",paddingRight:"5%"}}>
